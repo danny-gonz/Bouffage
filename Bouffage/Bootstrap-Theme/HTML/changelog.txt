@@ -1,0 +1,35 @@
+Changelog
+
+----------------------------------------------------------------------------------------
+
+07.04.2015
+
+- fixed mobile menu
+- added third level in primary menu
+- added RTL stylesheet
+- updated plugins
+
+Files changed:
+css/style.css
+js/scripts.js
+
+Files added
+css/style-rtl.css
+
+----------------------------------------------------------------------------------------
+
+21.8.2014
+
+- Improved CSS for the smallest screen resolutions and resolved some minor issues
+- Fixed HTML in index.html and recipe.html
+
+Files changed:
+css/style.css
+index.html
+recipe.html 
+
+----------------------------------------------------------------------------------------
+
+13.8.2014
+
+- Initial release
