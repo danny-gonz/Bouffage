@@ -380,7 +380,10 @@
     <Content Include="Bootstrap-Theme\HTML\contact_form_message.php" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="API Controllers\" />
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
