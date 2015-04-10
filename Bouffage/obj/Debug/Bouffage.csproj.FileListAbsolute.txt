@@ -178,6 +178,7 @@ C:\sf.git\Bouffage\Bouffage\bin\Microsoft.Owin.Security.OAuth.xml
 C:\sf.git\Bouffage\Bouffage\bin\Microsoft.Owin.Security.Google.xml
 C:\sf.git\Bouffage\Bouffage\bin\Microsoft.Owin.Security.Twitter.xml
 C:\sf.git\Bouffage\Bouffage\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\sf.git\Bouffage\Bouffage\obj\Debug\Bouffage.csprojResolveAssemblyReference.cache
 C:\sf.git\Bouffage\Bouffage\obj\Debug\Bouffage.dll
 C:\sf.git\Bouffage\Bouffage\obj\Debug\Bouffage.pdb
+C:\sf.git\Bouffage\Bouffage\bin\Sabio.Data.dll
+C:\sf.git\Bouffage\Bouffage\bin\Sabio.Data.pdb
