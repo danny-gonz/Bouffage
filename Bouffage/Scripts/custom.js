@@ -1,0 +1,1 @@
+﻿var Bouffage = { Handlers: {}, Services: {}, Page: {}, Layout: {}, Tests: {}, MapsUtility: {}, Utilities: {}, Analytics: {} };
