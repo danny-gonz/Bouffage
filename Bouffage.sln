@@ -5,6 +5,15 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bouffage", "Bouffage\Bouffage.csproj", "{5E5EF18A-C122-4EA3-AD1E-F5D79EAE970E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FCD11D34-F761-4935-B4B1-DD0E33428D10}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bouffage.Data", "..\..\Users\Daniel\Desktop\etc.Data\Bouffage.Data.csproj", "{7BFBD749-B5D2-4E4A-8591-320E8E579BF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +24,10 @@ Global
 		{5E5EF18A-C122-4EA3-AD1E-F5D79EAE970E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E5EF18A-C122-4EA3-AD1E-F5D79EAE970E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E5EF18A-C122-4EA3-AD1E-F5D79EAE970E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFBD749-B5D2-4E4A-8591-320E8E579BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFBD749-B5D2-4E4A-8591-320E8E579BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFBD749-B5D2-4E4A-8591-320E8E579BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFBD749-B5D2-4E4A-8591-320E8E579BF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
