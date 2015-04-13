@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Bouffage</title>
+  
 
 
     <meta charset="utf-8">
@@ -14,10 +14,10 @@
 
     <title>Bouffage</title>
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/animate.css" />
+    @*<link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />*@
     <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="~/Content/images/favicon.ico" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,6 +28,7 @@
 
 
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/bouffage-theme")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body class="home">
@@ -35,7 +36,7 @@
     <header class="head" role="banner">
         <!--wrap-->
         <div class="wrap clearfix">
-            <a href="index.html" title="SocialChef" class="logo"><img src="images/ico/logo.png" alt="SocialChef logo" /></a>
+            <a href="index.html" title="SocialChef" class="logo"><img src="~/images/ico/logo.png" alt="SocialChef logo" /></a>
 
             <nav class="main-nav" role="navigation" id="menu">
                 <ul>
@@ -96,7 +97,7 @@
     <!--call to action-->
     <section class="cta">
         <div class="wrap clearfix">
-            <a href="http://themeforest.net/item/socialchef-social-recipe-html-template/8568727?ref=themeenergy" class="button big white right">Purchase theme</a>
+           
             <h2>Already convinced? This is a call to action section lorem ipsum dolor sit amet.</h2>
         </div>
     </section>
@@ -148,9 +149,9 @@
     </footer>
     <!--//footer-->
     <!--preloader-->
-    <div class="preloader">
+    @*<div class="preloader">
         <div class="spinner"></div>
-    </div>
+    </div>*@
     <!--//preloader-->
 
 

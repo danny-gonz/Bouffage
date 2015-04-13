@@ -182,3 +182,4 @@ C:\sf.git\Bouffage\Bouffage\obj\Debug\Bouffage.dll
 C:\sf.git\Bouffage\Bouffage\obj\Debug\Bouffage.pdb
 C:\sf.git\Bouffage\Bouffage\bin\Sabio.Data.dll
 C:\sf.git\Bouffage\Bouffage\bin\Sabio.Data.pdb
+C:\sf.git\Bouffage\Bouffage\obj\Debug\Bouffage.csprojResolveAssemblyReference.cache

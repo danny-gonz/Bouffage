@@ -3,3 +3,67 @@
     Layout = "~/Views/Shared/_BouffageLayout.cshtml";
 }
 
+
+
+<!--main-->
+<main class="main" role="main">
+    <!--intro-->
+    <div class="intro">
+        <figure class="bg"><img src="~/images/intro.jpg" alt="" /></figure>
+
+        <!--wrap-->
+        <div class="wrap clearfix">
+            <!--row-->
+            <div class="row">
+                <article class="three-fourth text wow zoomIn" data-wow-delay=".2s">
+                    <h1>Welcome to Bouffage!</h1>
+                    <p>Bouffage is the ultimate <strong>cooking social community</strong>, where recipes come to life. Wanna know what you will gain by joining us? Lorem ipsum dolor sit amet, this is some teaser text.</p>
+                    <p>You will make new friends and share delicious recipes. </p>
+                    <p>Pay for meals using the Supper Dough you’ve earned for the meals you’ve shared. Eat meals you didn’t have to prepare, meals that you wouldn’t ordinarily prepare, and that did not come out of a takeout box. Enjoy!</p>
+
+                    <a href="register.html" class="button white more medium">Join our community</a>
+                    <p>Already a member? Click <a href="login.html">here</a> to login.</p>
+
+                </article>
+
+
+
+                <!--search recipes widget-->
+                <div class="one-fourth wow fadeInDown" data-wow-delay=".5s">
+                    <div class="widget container">
+                        <div class="textwrap">
+                            <h3>Search for recipes</h3>
+                            <p>All you need to do is enter an igredient, a dish or a keyword. </p>
+                            <p>You can also select a specific category from the dropdown.</p>
+                            <p>There’s sure to be something tempting for you to try.</p>
+                            <p>!Enjoy</p>
+                        </div>
+                        <form action="find_recipe.html">
+                            <div class="f-row">
+                                <input type="text" placeholder="Enter your search term" />
+                            </div>
+                            <div class="f-row">
+                                <select>
+                                    <option>or select a category</option>
+                                    <option>Apetizers</option>
+                                    <option>Cocktails</option>
+                                    <option>Deserts</option>
+                                    <option>Main courses</option>
+                                    <option>Snacks</option>
+                                    <option>Soups</option>
+                                </select>
+                            </div>
+                            <div class="f-row bwrap">
+                                <input type="submit" value="Start cooking!" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--//search recipes widget-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//wrap-->
+    </div>
+    <!--//intro-->
+</main>
